@@ -1,3 +1,7 @@
+package chapter2
+
+import base.UnitSpec
+
 class FibonacciSpec extends UnitSpec {
 
   "The Fibonacci function" should "match first 20 known numbers" in {
