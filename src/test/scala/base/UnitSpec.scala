@@ -1,5 +1,6 @@
 package base
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-trait UnitSpec extends FlatSpec with Matchers
+trait UnitSpec extends AnyFlatSpec with Matchers
